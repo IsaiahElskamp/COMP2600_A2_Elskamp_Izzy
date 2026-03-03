@@ -1,6 +1,7 @@
 AUTHOR = 'Izzy'
-SITENAME = "Izzy's Awesome Website"
-SITEURL = ""
+SITENAME = "Izzy Elskamp COMP 2600 A2"
+SITEURL = 'https://IsaiahElskamp.github.io/COMP2600_A2_Elskamp_Izzy'
+RELATIVE_URLS = False
 
 PATH = "content"
 
@@ -17,16 +18,7 @@ AUTHOR_FEED_RSS = None
 
 # Blogroll
 LINKS = (
-    ("Pelican", "https://getpelican.com/"),
-    ("Python.org", "https://www.python.org/"),
-    ("Jinja2", "https://palletsprojects.com/p/jinja/"),
-    ("You can modify those links in your config file", "#"),
-)
-
-# Social widget
-SOCIAL = (
-    ("You can add links in your config file", "#"),
-    ("Another social link", "#"),
+    ("Github", "https://github.com/IsaiahElskamp"),
 )
 
 DEFAULT_PAGINATION = False
