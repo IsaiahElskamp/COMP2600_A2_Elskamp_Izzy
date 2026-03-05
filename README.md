@@ -85,6 +85,13 @@ This will open notepad and prompt you to create a new file called "resume". Clic
 #### GitHub Repository Setup
 
 In order to host your website on GitHub pages, you first need to create a repository.
+
+1. Log in to your GitHub account and click the ``+`` button in the top right corner.
+2. Click ``New Repository``.
+3. Enter a name, and leave all other settings as default.
+4. Click ``Create Repository``.
+5. Copy the url of your repository from your browser once you are inside. For example, mine would look like: https://github.com/IsaiahElskamp/COMP2600_A2_Elskamp_Izzy.git
+
 #### Git Setup
 
 #### GitHub Pages Setup
