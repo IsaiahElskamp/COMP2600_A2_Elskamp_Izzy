@@ -11,7 +11,7 @@ This document gives detailed instructions for each step of the process, and link
 
 ## Prerequisites
 
-- A windows machine running Windows 10 or 11
+- A Windows machine running Windows 10 or 11
 - A [GitHub](github.com) account
 
 ## Instructions
@@ -45,7 +45,7 @@ python -m pip install "pelican[markdown]"
 ```
 pelican-quickstart
 ```
-3. Follow the questions they ask (unfinished)
+3. Follow the questions
  
 
 #### Add your Resume to the Site
