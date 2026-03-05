@@ -6,7 +6,8 @@ This README describes how to host a markdown-formatted resume using Github pages
 
 This document gives detailed instructions for each step of the process, and links these steps to the principles of technical writing described in "Modern Technical Writing" by Andrew Etter. The document also contains further readings on the topic, and a FAQ to answer your burning questions.
 
-**Note:** This tutorial is for Windows machines only.
+>[!NOTE]
+> This tutorial is for Windows machines only.
 
 ## Prerequisites
 
@@ -19,7 +20,8 @@ This document gives detailed instructions for each step of the process, and link
 
 #### Python Installation
 
-**Note:** If you already have Python installed (version must be at least 3.10), skip step 1.
+>[!Note]
+> If you already have Python installed (version must be at least 3.10), skip step 1.
 
 1. Go to [Python Downloads](https://www.python.org/downloads/) and click the yellow button that states "Download Python (version number)".
 2. Follow the Python setup wizard.
