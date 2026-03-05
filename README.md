@@ -24,8 +24,7 @@ This document gives detailed instructions for each step of the process, and link
 > If you already have Python installed (version must be at least 3.10), skip step 1.
 
 1. Go to [Python Downloads](https://www.python.org/downloads/) and click the yellow button that states "Download Python (version number)".
-2. Follow the Python setup wizard.
-
+2. Open the exe and follow the Python setup wizard.
 
 #### Pelican Installation
 
@@ -35,22 +34,58 @@ python -m pip install "pelican[markdown]"
 ```
 ### Create and Host your Resume Website
 
-#### Generate a New Site
+#### Generate a New Site and Run it Locally
 
-1. Enter the Python Virtual Environment using this command in PowerShell:
+1. Create a new directory for your project:
 ```
-
+mkdir projectName
 ```
-2. Open Windows PowerSshell and enter this command:
+2. Navigate to the directory:
+```
+cd projectName
+```
+3. Start a new Pelican generation process:
 ```
 pelican-quickstart
 ```
-3. Follow the questions
- 
+4. Follow the questions
 
+6. Generate your website:
+```
+pelican content
+```
+6. Run your website locally:
+```
+pelican --listen
+```
 #### Add your Resume to the Site
 
+Now that you have generated and run your website, you can add a Markdown formatted page to the site which contains your resume.
+
+1. Navigate to the contents folder:
+```
+cd projectName\contents
+```
+2. Create a folder to hold your pages. It must be named "pages":
+```
+mkdir pages
+```
+3. Navigate into the pages folder:
+```
+cd pages
+```
+4. Create your resume.md Markdown file:
+```
+Notepad resume.md
+```
+This will open notepad and prompt you to create a new file called "resume". Click yes and you can begin editing.
+
+5. Edit your resume.md file in notepad and save it using **Ctrl + S** once you have completed the resume.
+
 #### GitHub Repository Setup
+
+In order to host your website on GitHub pages, you first need to create a repository.
+#### Git Setup
 
 #### GitHub Pages Setup
 
@@ -83,4 +118,6 @@ and your hosted site will be updated!
 
 ## Credits
 
+- Conner Lavineway
+- Christian Javen Samson
 
