@@ -11,10 +11,33 @@ This document gives detailed instructions for each step of the process, and link
 ## Prerequisites
 
 - A windows machine running Windows 10 or 11
-- Python version 3.10 or higher
 - A [GitHub](github.com) account
 
 ## Instructions
+
+### Project Setup
+
+#### Python Installation
+
+**Note:** If you already have Python installed (version must be at least 3.10), skip step 1.
+
+1. Go to [Python Downloads](https://www.python.org/downloads/) and click the yellow button that states "Download Python (version number)".
+2. Follow the Python setup wizard.
+
+
+#### Pelican Installation
+
+1. Open Windows PowerShell and enter this command:
+```
+python -m pip install "pelican[markdown]"
+```
+#### Pelican Startup/Usage
+
+1. Open Windows PowerSshell and enter this command:
+```
+pelican-quickstart
+```
+2. Answer the questions to make the site.
 
 ## Further Resources
 
@@ -24,6 +47,24 @@ This document gives detailed instructions for each step of the process, and link
 - [Creating a GitHub Pages Site](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site) - A set of steps for setting up a new site from your repository using GitHub Pages
 
 ## FAQ
+
+**Q: Why do I have to use the GitHub Forge to host my site?**
+
+A: You don't! Since Pelican gives such a simple output, you can use any Forge with built-in static site hosting. Some other popular Forges with this feature include [Codeberg](https://codeberg.org/) and [Gitlab](https://about.gitlab.com/).
+
+
+**Q: How do I update my site if it is already hosted?**
+
+A: To update your site again, you will have to first re-generate your Pelican site and route the output to your gh-pages branch after you have made your changes. Enter this into your command line while within the project directory:
+```
+python -m pelican content
+python -m ghp_import output -b gh-pages
+```
+Now you can push to the gh-pages branch... 
+```
+git push origin gh-pages
+```
+and your hosted site will be updated!
 
 ## Credits
 
