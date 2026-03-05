@@ -31,13 +31,26 @@ This document gives detailed instructions for each step of the process, and link
 ```
 python -m pip install "pelican[markdown]"
 ```
-#### Pelican Startup/Usage
+### Create and Host your Resume Website
 
-1. Open Windows PowerSshell and enter this command:
+#### Generate a New Site
+
+1. Enter the Python Virtual Environment using this command in PowerShell:
+```
+
+```
+2. Open Windows PowerSshell and enter this command:
 ```
 pelican-quickstart
 ```
-2. Answer the questions to make the site.
+3. Follow the questions they ask (unfinished)
+ 
+
+#### Add your Resume to the Site
+
+#### GitHub Repository Setup
+
+#### GitHub Pages Setup
 
 ## Further Resources
 
