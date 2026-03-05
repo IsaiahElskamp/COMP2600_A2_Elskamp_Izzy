@@ -118,6 +118,7 @@ and your hosted site will be updated!
 
 ## Credits
 
+Proofreaders:
 - Conner Lavineway
 - Christian Javen Samson
 
