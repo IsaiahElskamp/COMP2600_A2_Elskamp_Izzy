@@ -6,7 +6,7 @@ This README describes how to host a markdown-formatted resume using Github pages
 
 This document gives detailed instructions for each step of the process, and links these steps to the principles of technical writing described in "Modern Technical Writing" by Andrew Etter. The document also contains further readings on the topic, and a FAQ to answer your burning questions.
 
->[!NOTES]
+>[!NOTE]
 > This tutorial is for Windows machines only.
 
 Every time you see a code block like this:
