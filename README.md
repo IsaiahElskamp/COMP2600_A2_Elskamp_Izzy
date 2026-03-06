@@ -136,8 +136,12 @@ python -m pelican content
 python -m ghp_import output -b gh-pages
 git push origin gh-pages
 ```
+![Screenshot for steps 4,5,6](Images/PagesScreenshot)
+
 4. Navigate to your GitHub repository in your browser again and click **Settings > Pages**
-5. 
+5. Select **Deploy from a Branch** under the **Source** header.
+6. Select **gh-pages** under the **Branch** header.
+
 
 ## Further Resources
 
