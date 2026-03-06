@@ -27,7 +27,7 @@ It means you have to enter the command within the block into Windows PowerShell.
 #### Python Installation
 
 >[!Note]
-> If you already have Python installed (version must be at least 3.10), skip step 1.
+> If you already have Python installed (version must be at least 3.10), skip to [Pelican Installation](pelican-installation).
 
 1. Go to [Python Downloads](https://www.python.org/downloads/) and click the yellow button that states "Download Python (version number)".
 2. Open the exe and follow the Python setup wizard.
@@ -73,7 +73,11 @@ pelican content
 ```
 pelican --listen
 ```
+### Editing the site
+
 #### Add your Resume to the Site
+
+Etter describes lightweight markup languages (like Markdown) as "free and superior in every meaningful way". Markdown is used to create documentation (and in this case the resume) as it offers an extremely simple and widely known standard for technical writing.
 
 Now that you have generated and run your website, you can add a Markdown formatted page to the site which contains your resume.
 
@@ -97,30 +101,30 @@ This will open notepad and prompt you to create a new file called "resume". Clic
 
 5. Edit your resume.md file in notepad and save it using **Ctrl + S** once you have completed the resume.
 
-#### GitHub Repository Setup
+### Hosting the Site
 
-In order to host your website on GitHub pages, you first need to create a repository.
+#### GitHub Repository and Git Setup
+
+Etter recommends DVCS (Distributed Version Control Systems) like GitHub over centralized systems as they have better performance, allow for offline work, and are superior for concurrent work on the same file. Developers prefer them, so it is in the best interest that technical writers do as well.
+
+In order to host your website on GitHub pages, you first need to create a repository. This section also covers how to pull and push changes to and from your newly created GitHub repository.
 
 1. Log in to your GitHub account on a browser and click the ``+`` button in the top right corner.
 2. Click ``New Repository``.
 3. Enter a name, and leave all other settings as default.
 4. Click ``Create Repository``.
 5. Copy the url of your repository from your browser once you are inside. For example, mine would look like: https://github.com/IsaiahElskamp/COMP2600_A2_Elskamp_Izzy.git. We will use this later.
-   
-#### Git Setup
 
-This section covers how to pull and push changes to and from your newly created GitHub repository.
-
-1. Open Windows Powershell again and make sure you are back inside your project directory. Enter these commands below to initialize Git:
+6 Open Windows Powershell again and make sure you are back inside your project directory. Enter these commands below to initialize Git:
 ```
 git init
 git remote add origin https://github.com/IsaiahElskamp/COMP2600_A2_Elskamp_Izzy.git
 ```
-2. Pull anything that is in your repository. This ensures your local project contains everything in your repository (which should be nothing at this point, but this is good practice anyways).
+7. Pull anything that is in your repository. This ensures your local project contains everything in your repository (which should be nothing at this point, but this is good practice anyways).
 ```
 git pull origin main
 ```
-3. Push your local files to the main branch in GitHub:
+8. Push your local files to the main branch in GitHub:
 ```
 git add .
 git commit -m "merge"
@@ -129,6 +133,8 @@ git push
 Now your github repository will contain all the files your project needs to run.
 
 #### GitHub Pages Setup
+
+Etter recommends hosting static sites on platforms like GitHub as they require no server-side application dependencies, no databases, and nothing to install. He explains that moving a static site is as easy as moving a directory.
 
 This section covers how to make a separate branch for your site output, and how to then use that branch to host your site on GitHub Pages.
 
@@ -188,7 +194,11 @@ and your hosted site will be updated!
 
 ## Credits
 
+Modern Technical Writing - Andrew Etter
+
 Proofreaders:
 - Conner Lavineway
 - Christian Javen Samson
+
+
 
