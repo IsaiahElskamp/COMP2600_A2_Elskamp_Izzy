@@ -57,7 +57,7 @@ pelican-quickstart
 4. Answer the questions like this (where there is no answer is where you press "Enter" on your keyboard):
 ```
 > Where do you want to create your new web site? [.]
-> What will be the title of this web site? WebsiteTitle
+> What will be the title of this web site? MarvinsResume
 > Who will be the author of this web site? Marvin
 > What will be the default language of this web site? [English]
 > Do you want to specify a URL prefix? e.g., https://example.com   (Y/n) n
@@ -153,15 +153,11 @@ Figure 1:
 ![Screenshot for steps 4,5,6](Images/PagesScreenshot.png)
 
 7. Click **Save** and your site will now be hosted on the link that is provided to you (see figure 2).
-8. Copy the link you see in step 7.
-
-#### Adding the URL to your Project
-
-This section covers how to add the URL you copied into your Pelican Config file.
-
 
 Figure 2:
 ![figure2](Images/urlscreenshot.png)
+
+Your site is now completed!
 
 ## Further Resources
 
