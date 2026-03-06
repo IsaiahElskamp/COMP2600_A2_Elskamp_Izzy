@@ -6,8 +6,14 @@ This README describes how to host a markdown-formatted resume using Github pages
 
 This document gives detailed instructions for each step of the process, and links these steps to the principles of technical writing described in "Modern Technical Writing" by Andrew Etter. The document also contains further readings on the topic, and a FAQ to answer your burning questions.
 
->[!NOTE]
+>[!NOTES]
 > This tutorial is for Windows machines only.
+
+Every time you see a code block like this:
+```
+Code block
+```
+It means you have to enter the command within the block into Windows PowerShell.
 
 ## Prerequisites
 
@@ -86,15 +92,52 @@ This will open notepad and prompt you to create a new file called "resume". Clic
 
 In order to host your website on GitHub pages, you first need to create a repository.
 
-1. Log in to your GitHub account and click the ``+`` button in the top right corner.
+1. Log in to your GitHub account on a browser and click the ``+`` button in the top right corner.
 2. Click ``New Repository``.
 3. Enter a name, and leave all other settings as default.
 4. Click ``Create Repository``.
-5. Copy the url of your repository from your browser once you are inside. For example, mine would look like: https://github.com/IsaiahElskamp/COMP2600_A2_Elskamp_Izzy.git
-
+5. Copy the url of your repository from your browser once you are inside. For example, mine would look like: https://github.com/IsaiahElskamp/COMP2600_A2_Elskamp_Izzy.git. We will use this later.
+   
 #### Git Setup
 
+This section covers how to pull and push changes to and from your newly created GitHub repository.
+
+1. Open Windows Powershell again and make sure you are back inside your project directory. Enter these commands below to initialize Git:
+```
+git init
+git remote add origin https://github.com/IsaiahElskamp/COMP2600_A2_Elskamp_Izzy.git
+```
+2. Pull anything that is in your repository. This ensures your local project contains everything in your repository (which should be nothing at this point, but this is good practice anyways).
+```
+git pull origin main
+```
+3. Push your local files to the main branch in GitHub:
+```
+git add .
+git commit -m "merge"
+git push
+```
+Now your github repository will contain all the files your project needs to run.
+
 #### GitHub Pages Setup
+
+This section covers how to make a separate branch for your site output, and how to then use that branch to host your site on GitHub Pages.
+
+1. Install GitHub Pages import:
+```
+python -m pip install ghp-import
+```
+2. Generate your site:
+```
+python -m pelican content
+```
+3. Commit and push the output to a separate branch called ghp-pages:
+```
+python -m ghp_import output -b gh-pages
+git push origin gh-pages
+```
+4. Navigate to your GitHub repository in your browser again and click **Settings > Pages**
+5. 
 
 ## Further Resources
 
