@@ -136,12 +136,18 @@ python -m pelican content
 python -m ghp_import output -b gh-pages
 git push origin gh-pages
 ```
+4. Navigate to your GitHub repository in your browser again and click **Settings > Pages** (see figure 1).
+5. Select **Deploy from a Branch** under the **Source** header (see figure 1).
+6. Select **gh-pages** under the **Branch** header (see figure 1).
+
+Figure 1:
 ![Screenshot for steps 4,5,6](Images/PagesScreenshot.png)
 
-4. Navigate to your GitHub repository in your browser again and click **Settings > Pages**
-5. Select **Deploy from a Branch** under the **Source** header.
-6. Select **gh-pages** under the **Branch** header.
+7. Click **Save**
+8. Your site will now be hosted on the link that is provided to you (see figure 2).
 
+Figure 2:
+![figure2](Images/urlscreenshot)
 
 ## Further Resources
 
