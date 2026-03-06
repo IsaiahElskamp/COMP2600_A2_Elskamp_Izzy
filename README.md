@@ -27,7 +27,7 @@ It means you have to enter the command within the block into Windows PowerShell.
 #### Python Installation
 
 >[!Note]
-> If you already have Python installed (version must be at least 3.10), skip to [Pelican Installation](pelican-installation).
+> If you already have Python installed (version must be at least 3.10), skip to [Pelican Installation](#pelican-installation).
 
 1. Go to [Python Downloads](https://www.python.org/downloads/) and click the yellow button that states "Download Python (version number)".
 2. Open the exe and follow the Python setup wizard.
