@@ -147,7 +147,7 @@ Figure 1:
 8. Your site will now be hosted on the link that is provided to you (see figure 2).
 
 Figure 2:
-![figure2](Images/urlscreenshot)
+![figure2](Images/urlscreenshot.png)
 
 ## Further Resources
 
