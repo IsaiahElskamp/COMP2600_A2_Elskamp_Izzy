@@ -15,6 +15,23 @@ Code block
 ```
 It means you have to enter the command within the block into Windows PowerShell.
 
+## Table of Contents
+
+- [Prerequisites](#prerequisites)
+- [Instructions](#instructions)
+  - [Project Setup](#project-setup)
+    - [Python Installation](#python-installation)
+    - [Pelican Installation](#pelican-installation)
+  - [Create and Host your Resume Website](#create-and-host-your-resume-website)
+    - [Generate a New Site and Run it Locally](#generate-a-new-site-and-run-it-locally)
+    - [Add your Resume to the Site](#add-your-resume-to-the-site)
+    - [GitHub Repository Setup](#github-repository-setup)
+    - [Git Setup](#git-setup)
+    - [GitHub Pages Setup](#github-pages-setup)
+- [Further Resources](#further-resources)
+- [FAQ](#faq)
+- [Credits](#credits)
+
 ## Prerequisites
 
 - A Windows machine running Windows 10 or 11
